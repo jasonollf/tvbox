@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+	# -*- coding: utf-8 -*-
 import json
 import sys
 sys.path.append('..')
@@ -154,12 +154,11 @@ class Spider(Spider):
         play_from = ['老僧酿酒、边酿边播']
         play_url = []
         
-        # 寻找并处理“常规线路”
         for source in res.get('source_list_source', []):
             if source['name'] == '常规线路':
                 parts = [f"{part.get('source_name', part.get('weight', ''))}${part['url']}" for part in source.get('source_list', [])]
                 play_url.append('#'.join(parts))
-                break  # 找到后立即退出循环
+                break  
         
         vod = {
             'vod_id': id,
