@@ -81,7 +81,7 @@
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 0,
-    "api": "./lib/推特.py",
+    "api": "https://git.581885.xyz/raw.githubusercontent.com/ge6bu6/1/refs/heads/main/py/推特APP.py",
     "style": {"type":"rect","ratio":1.485}
     },
         {
